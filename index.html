@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Book Search, Add, and Display</title>
+</head>
+<body>
+   
+    <form id="BookForm">
+        <h2>Add a Book</h2>
+       <h3>A room without books is like a body without soul !</h3>
+        <label for="Bookname"> Bookname</label>
+        <input type="text" id="bookTitle" placeholder=" Enter the Title">
+        <label for="Author">Author</label>
+        <input type="text" id="bookAuthor" placeholder=" Enter the Author">
+        <label for="Description"> Description</label>
+        <input type="text" id="bookDescription" placeholder="Enter the Description">
+        <label for="Genre">Genre</label>
+        <input type="text" id="bookGenre" placeholder="Enter the Genre">
+        <button type="submit" class="custom-btn btn-3">Add Book</button>
+    </form>
+
+<div id="bookList">
+    <h2>Book Explorer</h2>
+    <h3>Find the best books today!</h3>
+    <img src="https://w0.peakpx.com/wallpaper/482/1010/HD-wallpaper-reading-book-books-girl-night-art-stars-moon.jpg"></img>
+    <ul id="itemList" >
+
+
+    </ul>
+</div>
+    <form id="SearchForm">
+        <input type="text" id="searchInput" placeholder="Search for a book">
+        <button type="submit" class="custom-btn btn-3">Search</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
